@@ -1,0 +1,45 @@
+nav {
+    margin: 0 auto;
+    width: 100%;
+    background: #545462;
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 6rem;
+        .nav__logo {
+            transform: rotate(180deg);
+            font-size: 3rem;
+            color: #5b60f8;
+            font-weight: bold;
+        }
+        .nav__menu {
+            display: flex;
+            align-items: center;
+            .nav__lists {
+                display: flex;
+                align-items: center;
+                gap: 40px;
+                li {
+                    font-size: 14px;
+                    font-weight: 500;
+                    list-style: none;
+                    color: #d9d4db;
+                    cursor: pointer;
+                }
+                .active {
+                    color: white;
+                }
+            }
+        }
+        button {
+            margin-left: 40px;
+            background-color: #5b60f8;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}
